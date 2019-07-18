@@ -3,86 +3,86 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
-  <header>
-    <nav>
-      <a>Home</a>
-      <a>About</a>
-      <a>Portfolio</a>
-      <a>Contact</a>
-    </nav>
-  </header>
-  <section class="main-content">
-    <div>
-      <img>
-      <h1>Jonny Appleseed - Web Dev</h1>
-      <h2>Technology is my jam!</h2>
-    </div>
-    <div>
-      <p>For Inquires Please Email Me</p>
-      <button>Contact</button>
-    </div>
-  </section>
-  <section class="middle-content">
-    <div>
-      <h1>Why I'll Be Your Best Hire</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore commodi earum eius. Maiores at natus, ut earum modi facere libero, deleniti odit nam iure vitae ipsa officiis. Tenetur, doloremque beatae.</p>
-    </div>
-    <div>
-      <h4>Skills</h4>
-      <div>
-        <h5>Disc Golf</h5>
-        <h5>Coding up UI</h5>
-        <h5>Playing lots of video games</h5>
-        <h5>Using bootstrap grid</h5>
-        <h5>Taking long naps</h5>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+    <section class="main-content">
+      <div class="main-top">
+        <img src="images/profilepic.jpg" alt="Profile Picture" height="450px" width="450px">
+        <h1>Edward Ridgely- Web Dev</h1>
+        <h2>Coder by day, and also coder by night</h2>
       </div>
-    </div>
-  </section>
-  <section class="lower-content">
-    <div>
-      <h4>Work History</h4>
-      <table>
-        <tr>
-          <th>Yrs</th>
-          <th>Company</th>
-          <th>Title</th>
-          <th>Tech Used</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Apple</td>
-          <td>Software Engineer</td>
-          <td>Swift</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Microsoft</td>
-          <td>Computer Scientist</td>
-          <td>.NET</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Amazon</td>
-          <td>Dev Ops</td>
-          <td>AWS</td>
-        </tr>
-      </table>
-    </div>
-  </section>
-  <footer>
-    <h6>Copyright Awesomeness 2018</h6>
-  </footer>
+      <div class="main-bottom">
+        <p>For Inquires Please Email Me</p>
+        <button>Contact</button>
+      </div>
+    </section>
+    <section class="middle-content">
+      <div>
+        <h3>Why I'll Be Your Best Hire</h3>
+        <p>See for yourself on what I've done on <a href="https://etridgely.github.io/portfolio-website/">GitHub</a>.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consectetur ullam quas, dolores voluptatibus ratione.</p>
+      </div>
+      <div>
+        <h3>Skills</h3>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam similique eum ipsa tempore modi voluptatum necessitatibus debitis quam. Aliquam accusamus corrupti laboriosam vitae voluptate ipsam tempora rem quis odit tempore!</p>
+        </div>
+      </div>
+    </section>
+    <section class="lower-content">
+      <div>
+        <h4 class="history">Work History</h4>
+        <table>
+          <tr>
+            <th><strong>Yrs</strong></th>
+            <th><strong>Company</strong></th>
+            <th><strong>Title</strong></th>
+            <th><strong>Tech Used</strong></th>
+          </tr>
+          <tr class="grey-row">
+            <td><strong>1</strong></td>
+            <td>Apple</td>
+            <td>Software Engineer</td>
+            <td>Swift</td>
+          </tr>
+          <tr>
+            <td><strong>2</strong></td>
+            <td>Microsoft</td>
+            <td>Computer Scientist</td>
+            <td>.NET</td>
+          </tr>
+          <tr class="grey-row">
+              <td><strong>3</strong></td>
+            <td>Amazon</td>
+            <td>Dev Ops</td>
+            <td>AWS</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+      <h6>Copyright Awesomeness 2018</h6>
+    </footer>
+  </div>
 </body>
 </html>
